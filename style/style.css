@@ -1,0 +1,169 @@
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+.input-group {
+    margin: 20px 0px;
+}
+
+svg {
+    height: 150px;
+}
+
+td:first-of-type, td:first-of-type > div {
+    height: 200px;
+    width: 250px;
+}
+.bg-image{
+	background: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#app{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    max-width:800px;
+    border-radius: 15px;
+    background: rgba(255,255,255,.8);
+    box-shadow: 0px 0px 6px rgba(0,0,0,.5);
+}
+
+.container{
+	width: 100%;
+	max-width: inherit;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col{
+	padding:0;
+}
+
+.header{
+	background:#fff;
+    border-radius: 15px 15px 0 0;
+}
+
+.row>div:first-child{
+	border-right: 1px solid #ccc;
+}
+
+.header>div{
+	padding: 21px;
+}
+
+.header h1{
+	color: #ef8c8c;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.nav .nav-item{
+	border-bottom: 1px solid #eee;
+}
+
+.nav .nav-item:first-child{
+	padding:10px;
+}
+
+.nav .nav-item.nav-item--hover{
+	transition:background 0.3s linear;
+}
+
+.nav .nav-item.nav-item--hover a{
+	color:inherit;
+}
+
+.nav .nav-item.nav-item--hover:hover{
+	background: rgba(252, 252, 252, .4);
+}
+
+.nav .nav-item.nav-item--hover.active{
+	background: rgb(239, 140, 140);
+    color: #fff;
+}
+
+.flex{
+	display:flex;
+	align-items:center;
+}
+
+.user{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+}
+
+.user .user--image{
+	width: 30%;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right:10%;
+}
+
+.user .user--image img{
+	width:100%;
+	height:auto;
+}
+
+.user .user--name{
+    width:60%;
+}
+
+.to-do-list .to-do-item{
+	display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,.6);
+}
+
+.to-do-list .to-do-item:last-child{
+	border:0;
+}
+
+.to-do-list .to-do-item>input[type="checkbox"]{
+	width: 3%;
+}
+
+.to-do-list .to-do-item>input[type="text"]{
+    width: 97%;
+    border: 0;
+    font-size: 24px;
+    background: none;
+}
+
+.disabled {
+    text-decoration: line-through;
+    color: rgb(99, 99, 133);
+    opacity: .8;
+}
+
+.relative{
+    position:relative;
+}
+
+.important-checkbox{
+    padding:0 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.task-list {
+    max-height: 260px;
+    overflow-y: scroll;
+}
